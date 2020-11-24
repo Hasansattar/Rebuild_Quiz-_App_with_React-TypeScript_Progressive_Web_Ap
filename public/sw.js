@@ -8,7 +8,7 @@ this.addEventListener("install", (event) => {
 
             data.addAll([
                 '/static/js/main.chunk.js',
-                '/static/js/1.chunk.js',
+                '/static/js/0.chunk.js',
                 '/static/js/bundle.js',
                 '/index.html',
                 '/App.tsx',
