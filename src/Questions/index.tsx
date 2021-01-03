@@ -35,7 +35,7 @@ const Questions: React.FC<Props> = () => {
 
 
   return (
-    <div>
+    <div style={{border:"2px solid red"}}>
       {quizes.length > 0 && quizes?.[step] && (
         <Row justify="center">
           <Card style={{ minHeight: "15rem", padding: "3rem" }}>

@@ -67,7 +67,7 @@ const QuestionItem: React.FC<Props>=
                     >
                         {quizItem?.choices.map((choice)=>(
                         
-                            <Radio.Button disabled={isAnswered}  value={choice} key={choice}>
+                            <Radio.Button disabled={isAnswered}  value={choice} key={choice} style={{border:"2px solid skyblue", margin:"5px"}} >
                               
                               <span dangerouslySetInnerHTML={{ __html: choice }}></span>
                             </Radio.Button>

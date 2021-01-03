@@ -1,22 +1,23 @@
 import React from "react";
 import { Layout, Row, Col } from "antd";
-
+import "./styles.css"
 const { Content } = Layout;
 interface Props {}
 
 export const AppLayout: React.FC<Props> = ({ children }) => {
   return (
     <>
-    <div  style={{background:"#503705"}}>
-      <header style={{ marginBottom: "2rem", marginTop: "5rem" }}>
+    <div  className="main">
+      <header className="container">
         <nav>
           <Row justify="center" align="middle">
             <Col>
               <h1
                 style={{
-                    
+                    fontFamily:"emoji",
                   fontSize: "4rem",
                   color:"red"
+                
               
                   
                 }}
